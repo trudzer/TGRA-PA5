@@ -1,0 +1,1 @@
+python3 -m PyInstaller main.py Base3DObjects.py Entities.py Helpers.py Matrices.py Maze.py obj_3D_loading.py Shaders.py --add-data simple3D.frag;. --add-data simple3D.vert;. --add-data textures/*;textures/ --add-data sounds/*;sounds/ --add-data Models/*;Models/ -w -y
